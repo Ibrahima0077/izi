@@ -168,7 +168,7 @@ const SupportPage: React.FC = () => {
                 <Phone className="h-5 w-5 text-red-500" />
                 <div>
                   <p className="font-medium text-gray-900">Téléphone</p>
-                  <p className="text-gray-600">+223 70 12 34 56</p>
+                  <p className="text-gray-600">+223 82 13 66 24</p>
                   <p className="text-xs sm:text-sm text-gray-500">Lun-Ven 9h-18h</p>
                 </div>
               </div>
@@ -177,7 +177,7 @@ const SupportPage: React.FC = () => {
                 <Mail className="h-5 w-5 text-green-500" />
                 <div>
                   <p className="font-medium text-gray-900">Email</p>
-                  <p className="text-gray-600">support@izi-colis.com</p>
+                  <p className="text-gray-600">contact@id-cargo.com</p>
                   <p className="text-xs sm:text-sm text-gray-500">Réponse sous 24h</p>
                 </div>
               </div>
@@ -186,10 +186,20 @@ const SupportPage: React.FC = () => {
                 <MessageSquare className="h-5 w-5 text-blue-500" />
                 <div>
                   <p className="font-medium text-gray-900">WhatsApp</p>
-                  <p className="text-gray-600">+223 76 54 32 10</p>
+                  <p className="text-gray-600">+223 82 13 66 24</p>
                   <p className="text-xs sm:text-sm text-gray-500">Support instantané</p>
                 </div>
               </div>
+
+              {/* Bouton WhatsApp */}
+              <a
+                href="https://wa.me/22393582953"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full text-center bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-4 rounded-lg shadow-md hover:scale-105 transition-all"
+              >
+                💬 Discuter sur WhatsApp
+              </a>
             </div>
           </div>
 
@@ -202,7 +212,7 @@ const SupportPage: React.FC = () => {
               </div>
               <div>
                 <p className="font-medium text-red-700">Quels sont les délais de livraison ?</p>
-                <p className="text-red-600">Entre 15 et 25 jours selon le convoi et la destination finale.</p>
+                <p className="text-red-600">Entre 7 et 25 jours selon le convoi et la destination finale.</p>
               </div>
               <div>
                 <p className="font-medium text-red-700">Comment utiliser mes points fidélité ?</p>

@@ -111,7 +111,7 @@ const LoyaltyPage: React.FC = () => {
               type="text"
               value={clientCode}
               onChange={(e) => setClientCode(e.target.value.toUpperCase())}
-              placeholder="Entrez votre code fidélité (ex: IZI-70123456)"
+              placeholder="Entrez votre code fidélité (ex: KITE-70123456)"
               className="w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 text-base font-mono"
             />
           </div>
@@ -216,7 +216,7 @@ const LoyaltyPage: React.FC = () => {
                     Vos points peuvent être convertis en réduction lors de la <strong>livraison de vos colis</strong>.
                   </p>
                   <p className="font-medium">
-                    <strong>1 point = 100 FCFA</strong> • Conversion manuelle par notre équipe
+                    <strong>10 point = 1 000 FCFA</strong> • Conversion manuelle par notre équipe
                   </p>
                   <p className="text-red-600">
                     Informez notre livreur de votre souhait de convertir vos points lors de la réception de votre colis.
@@ -233,8 +233,8 @@ const LoyaltyPage: React.FC = () => {
               <div>
                 <h4 className="font-medium text-gray-900 mb-2">Gagnez des points</h4>
                 <ul className="space-y-2 text-xs sm:text-sm text-gray-600">
-                  <li>• 10 points par kg de colis envoyé</li>
-                  <li>• Bonus de 50 points pour votre premier envoi</li>
+                  <li>• 1 points par kg de colis envoyé</li>
+                  <li>• Bonus de 20 points pour votre premier envoi</li>
                   <li>• Points doublés lors des promotions spéciales</li>
                 </ul>
               </div>
@@ -292,7 +292,7 @@ const LoyaltyPage: React.FC = () => {
                         ? 'text-blue-600'
                         : 'text-red-600'
                     }`}>
-                      {transaction.type === 'earned' ? '+' : transaction.type === 'converted' ? '-' : ''}{transaction.points} pts
+                      {transaction.type === 'earned' ? '+' : transaction.type === 'spent' ? '-' : ''}{transaction.points} pts
                     </span>
                   </div>
                 ))
@@ -308,12 +308,12 @@ const LoyaltyPage: React.FC = () => {
           <h3 className="text-base sm:text-lg font-semibold text-gray-900 mb-4">Pas encore membre ?</h3>
           <div className="bg-red-50 border border-red-200 rounded-lg p-4">
             <p className="text-red-700 mb-3">
-              Obtenez votre code fidélité en cliquant sur le bouton "Obtenir un code fidélité" dans le header.
+              Obtenez votre code fidélité en cliquant sur le bouton "S'inscrire au programme de fidelité" dans le header.
             </p>
             <div className="text-sm text-red-600">
               <p className="font-medium mb-2">Avantages :</p>
               <ul className="space-y-1">
-                <li>• 10 points par kg de colis envoyé</li>
+                <li>• 1 points par kg de colis envoyé</li>
                 <li>• 1 point = 100 FCFA de réduction</li>
                 <li>• Conversion lors de la livraison</li>
                 <li>• Suivi de tous vos envois</li>

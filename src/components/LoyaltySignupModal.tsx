@@ -37,7 +37,7 @@ const LoyaltySignupModal: React.FC<LoyaltySignupModalProps> = ({ onClose }) => {
 
     try {
       // Générer le code client
-      const clientCode = `IZI-${formData.phone.replace(/[^\d]/g, '')}`;
+      const clientCode = `KITE-${formData.phone.replace(/[^\d]/g, '')}`;
 
       // Envoyer vers webhook
       const webhookData = {
@@ -49,7 +49,7 @@ const LoyaltySignupModal: React.FC<LoyaltySignupModalProps> = ({ onClose }) => {
       };
 
       // TODO: Remplacer par votre URL de webhook réelle
-      const webhookUrl = 'https://your-webhook-url.com/loyalty-signup';
+      const webhookUrl = 'https://api.id-cargo.com/webhook/fideli';
       
       const response = await fetch(webhookUrl, {
         method: 'POST',
@@ -115,7 +115,7 @@ const LoyaltySignupModal: React.FC<LoyaltySignupModalProps> = ({ onClose }) => {
             <div className="bg-red-600 p-2 rounded-lg">
               <Gift className="h-5 w-5 text-white" />
             </div>
-            <h3 className="text-lg font-bold text-gray-900">Obtenir un code fidélité</h3>
+            <h3 className="text-lg font-bold text-gray-900">S'inscrire au programme de fidelité</h3>
           </div>
           <button
             onClick={onClose}
@@ -180,7 +180,7 @@ const LoyaltySignupModal: React.FC<LoyaltySignupModalProps> = ({ onClose }) => {
                 />
               </div>
               <p className="text-xs text-gray-500 mt-1">
-                Votre code sera : IZI-{formData.phone.replace(/[^\d]/g, '')}
+                Votre code sera : KITE-{formData.phone.replace(/[^\d]/g, '')}
               </p>
             </div>
 
@@ -206,7 +206,7 @@ const LoyaltySignupModal: React.FC<LoyaltySignupModalProps> = ({ onClose }) => {
             <div className="bg-red-50 border border-red-200 rounded-lg p-4">
               <h4 className="font-medium text-red-800 mb-2">Avantages du programme fidélité :</h4>
               <ul className="text-sm text-red-700 space-y-1">
-                <li>• 10 points par kg de colis envoyé</li>
+                <li>• 1 points par kg de colis envoyé</li>
                 <li>• 1 point = 100 FCFA de réduction</li>
                 <li>• Conversion lors de la livraison</li>
                 <li>• Pas de date d'expiration</li>

@@ -16,7 +16,7 @@ const Header: React.FC = () => {
                 <Package className="h-5 w-5 text-white" />
               </div>
               <div>
-                <h1 className="text-lg font-bold text-gray-900">IZI Colis</h1>
+                <h1 className="text-lg font-bold text-gray-900">iKite</h1>
                 <p className="text-xs text-gray-600 hidden sm:block">Mali Express</p>
               </div>
             </div>
@@ -27,7 +27,7 @@ const Header: React.FC = () => {
               className="flex items-center space-x-2 bg-red-600 hover:bg-red-700 text-white px-3 py-2 rounded-lg shadow-lg hover:shadow-xl transition-all hover:scale-105"
             >
               <Gift className="h-4 w-4" />
-              <span className="text-sm font-medium hidden sm:inline">Obtenir un code fidélité</span>
+              <span className="text-sm font-medium hidden sm:inline">S'inscrire au programme de fidelité</span>
               <span className="text-sm font-medium sm:hidden">Code fidélité</span>
             </button>
           </div>

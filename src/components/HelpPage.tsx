@@ -40,7 +40,7 @@ const HelpPage: React.FC = () => {
     },
     {
       id: '3',
-      title: 'Utiliser votre code client IZI',
+      title: 'Utiliser votre code client iKite',
       description: 'Comment bien utiliser votre code client pour identifier vos colis',
       videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
       duration: '5:45',
@@ -48,7 +48,7 @@ const HelpPage: React.FC = () => {
     },
     {
       id: '4',
-      title: 'Workflow complet IZI Colis',
+      title: 'Workflow complet iKite',
       description: 'De la commande à la réception : le processus complet expliqué',
       videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
       duration: '15:20',
@@ -60,7 +60,7 @@ const HelpPage: React.FC = () => {
     {
       id: '1',
       question: 'Comment obtenir mon code client ?',
-      answer: 'Cliquez sur "Obtenir un code fidélité" dans le header et remplissez le formulaire. Votre code suivra le format IZI-[votre numéro de téléphone].',
+      answer: 'Cliquez sur "Obtenir un code fidélité" dans le header et remplissez le formulaire. Votre code suivra le format KITE-[votre numéro de téléphone].',
       category: 'Compte'
     },
     {
@@ -86,6 +86,12 @@ const HelpPage: React.FC = () => {
       question: 'Quels sont les délais de livraison ?',
       answer: 'Les délais varient entre 15 et 25 jours selon le convoi choisi et votre localisation finale au Mali.',
       category: 'Livraison'
+    },
+    {
+      id: '6',
+      question: 'Comment choisir entre une expedition express et standard ?',
+      answer: 'Dès que votre fournisseur vous communique le jour de livraison de votre colis chez le transiteur et vous envoie la photo de votre colis, communiquez moi votre choix d\'expedition sur whatsapp avec la photo du colis.',
+      category: 'option'
     }
   ];
 
