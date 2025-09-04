@@ -41,7 +41,7 @@ const ConvoysPage: React.FC = () => {
       setConvoys(formattedConvoys);
     } catch (err) {
       console.error('Erreur fetchConvoys:', err);
-      setError(err instanceof Error ? err.message : 'Erreur lors du chargement des convois');
+      setError(err instanceof Error ? err.message : 'Erreur lors du chargement des transiteurs');
     } finally {
       setLoading(false);
     }
@@ -86,7 +86,7 @@ const ConvoysPage: React.FC = () => {
         <div className="bg-red-50 border border-red-200 rounded-lg p-3 sm:p-4">
           <h3 className="font-semibold text-red-800 mb-2">Instructions importantes :</h3>
           <ul className="text-red-700 text-xs sm:text-sm space-y-1">
-            <li>• Copiez l'adresse du transporteur et fournissez-la à votre vendeur (Alibaba, Taobao, etc.)</li>
+            <li>• Copiez l'adresse du transporteur et fournissez-la à votre vendeur (Alibaba, Taobao, Amazon etc.)</li>
             <li>• Assurez-vous que votre code client est clairement indiqué sur le colis</li>
             <li>• Contactez le support si vous avez des questions</li>
           </ul>

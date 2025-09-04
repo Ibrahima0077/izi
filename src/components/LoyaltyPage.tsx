@@ -75,7 +75,7 @@ const LoyaltyPage: React.FC = () => {
     }
   };
 
-  const pointsToFCFA = (points: number): number => points * 100;
+  const pointsToFCFA = (points: number): number => points * 50;
 
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString('fr-FR', {
@@ -216,7 +216,7 @@ const LoyaltyPage: React.FC = () => {
                     Vos points peuvent être convertis en réduction lors de la <strong>livraison de vos colis</strong>.
                   </p>
                   <p className="font-medium">
-                    <strong>10 point = 1 000 FCFA</strong> • Conversion manuelle par notre équipe
+                    <strong>100 point = 5 000 FCFA</strong> • Conversion manuelle par notre équipe
                   </p>
                   <p className="text-red-600">
                     Informez notre livreur de votre souhait de convertir vos points lors de la réception de votre colis.
@@ -234,14 +234,14 @@ const LoyaltyPage: React.FC = () => {
                 <h4 className="font-medium text-gray-900 mb-2">Gagnez des points</h4>
                 <ul className="space-y-2 text-xs sm:text-sm text-gray-600">
                   <li>• 1 points par kg de colis envoyé</li>
-                  <li>• Bonus de 20 points pour votre premier envoi</li>
+                  <li>• Bonus de 10 points au moment de votre inscription </li>
                   <li>• Points doublés lors des promotions spéciales</li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-medium text-gray-900 mb-2">Utilisez vos points</h4>
                 <ul className="space-y-2 text-xs sm:text-sm text-gray-600">
-                  <li>• 1 point = 100 FCFA de réduction</li>
+                  <li>• 1 point = 50 FCFA de réduction</li>
                   <li>• Conversion lors de la livraison par notre équipe</li>
                   <li>• Pas de date d'expiration</li>
                 </ul>
@@ -314,7 +314,7 @@ const LoyaltyPage: React.FC = () => {
               <p className="font-medium mb-2">Avantages :</p>
               <ul className="space-y-1">
                 <li>• 1 points par kg de colis envoyé</li>
-                <li>• 1 point = 100 FCFA de réduction</li>
+                <li>• 1 point = 50 FCFA de réduction</li>
                 <li>• Conversion lors de la livraison</li>
                 <li>• Suivi de tous vos envois</li>
               </ul>

@@ -37,22 +37,6 @@ const HelpPage: React.FC = () => {
       videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
       duration: '12:15',
       thumbnail: 'https://images.pexels.com/photos/5632371/pexels-photo-5632371.jpeg?auto=compress&cs=tinysrgb&w=400&h=225&fit=crop&crop=center'
-    },
-    {
-      id: '3',
-      title: 'Utiliser votre code client iKite',
-      description: 'Comment bien utiliser votre code client pour identifier vos colis',
-      videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-      duration: '5:45',
-      thumbnail: 'https://images.pexels.com/photos/4482900/pexels-photo-4482900.jpeg?auto=compress&cs=tinysrgb&w=400&h=225&fit=crop&crop=center'
-    },
-    {
-      id: '4',
-      title: 'Workflow complet iKite',
-      description: 'De la commande à la réception : le processus complet expliqué',
-      videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-      duration: '15:20',
-      thumbnail: 'https://images.pexels.com/photos/6169668/pexels-photo-6169668.jpeg?auto=compress&cs=tinysrgb&w=400&h=225&fit=crop&crop=center'
     }
   ];
 
@@ -84,7 +68,7 @@ const HelpPage: React.FC = () => {
     {
       id: '5',
       question: 'Quels sont les délais de livraison ?',
-      answer: 'Les délais varient entre 15 et 25 jours selon le convoi choisi et votre localisation finale au Mali.',
+      answer: 'Les délais varient entre 3 et 15 jours selon le convoi choisi et votre localisation finale au Mali.',
       category: 'Livraison'
     },
     {
