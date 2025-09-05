@@ -82,12 +82,13 @@ const ConvoysPage: React.FC = () => {
   return (
     <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-8 bg-white min-h-screen">
       <div className="mb-8">
-        <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">transiteurs Disponibles</h2>
+        <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Transiteurs Disponibles</h2>
         <div className="bg-red-50 border border-red-200 rounded-lg p-3 sm:p-4">
           <h3 className="font-semibold text-red-800 mb-2">Instructions importantes :</h3>
           <ul className="text-red-700 text-xs sm:text-sm space-y-1">
-            <li>• Copiez l'adresse du transporteur et fournissez-la à votre vendeur (Alibaba, Taobao, Amazon etc.)</li>
+            <li>• Copiez l'adresse du transporteur pour votre fournisseur (Alibaba, Taobao, Amazon etc.)</li>
             <li>• Assurez-vous que votre code client est clairement indiqué sur le colis</li>
+            <li>• Inscrivez vous au programmme de fidelité pour accumuler des points</li>
             <li>• Contactez le support si vous avez des questions</li>
           </ul>
         </div>

@@ -76,6 +76,12 @@ const HelpPage: React.FC = () => {
       question: 'Comment choisir entre une expedition express et standard ?',
       answer: 'Dès que votre fournisseur vous communique le jour de livraison de votre colis chez le transiteur et vous envoie la photo de votre colis, communiquez moi votre choix d\'expedition sur whatsapp avec la photo du colis.',
       category: 'option'
+    },
+    {
+      id: '7',
+      question: 'Comment installer ikite sur votre téléphone ?',
+      answer: 'Pour installer ikite sur votre téléphone, ouvrez le navigateur Safari (iPhone) ou Chrome (Android), allez sur ikitemali.com, puis cliquez sur le bouton de partage et sélectionnez "Ajouter à l\'écran d\'accueil".',
+      category: 'Installation'
     }
   ];
 

@@ -207,7 +207,7 @@ const LoyaltySignupModal: React.FC<LoyaltySignupModalProps> = ({ onClose }) => {
               <h4 className="font-medium text-red-800 mb-2">Avantages du programme fidélité :</h4>
               <ul className="text-sm text-red-700 space-y-1">
                 <li>• 1 points par kg de colis envoyé</li>
-                <li>• 1 point = 100 FCFA de réduction</li>
+                <li>• 1 point = 50 FCFA de réduction</li>
                 <li>• Conversion lors de la livraison</li>
                 <li>• Pas de date d'expiration</li>
               </ul>
