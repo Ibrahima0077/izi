@@ -112,8 +112,8 @@ const ConvoysPage: React.FC = () => {
               <div className="flex items-center space-x-3 text-gray-600">
                 <DollarSign className="h-5 w-5 text-green-500" />
                 <div>
-                  <p className="font-medium text-gray-900 text-sm sm:text-base">{convoy.pricePerKg.toLocaleString()} FCFA/kg</p>
-                  <p className="text-xs sm:text-sm">Prix par kilogramme</p>
+                  <p className="font-medium text-gray-900 text-sm sm:text-base">{convoy.pricePerKg.toLocaleString()} FCFA/kg-CBM</p>
+                  <p className="text-xs sm:text-sm">Prix par kg / CBM</p>
                 </div>
               </div>
 
@@ -122,6 +122,14 @@ const ConvoysPage: React.FC = () => {
                 <div className="min-w-0 flex-1">
                   <p className="font-medium text-gray-900 mb-1 text-sm sm:text-base">Adresse transiteur</p>
                   <p className="text-xs sm:text-sm text-gray-600 break-words leading-relaxed">{convoy.carrierAddress}</p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-3 text-gray-600">
+                <MapPin className="h-5 w-5 text-red-500 flex-shrink-0 mt-0.5" />
+                <div className="min-w-0 flex-1">
+                  <p className="font-medium text-gray-900 mb-1 text-sm sm:text-base">Mode d'envoi</p>
+                  <p className="text-xs sm:text-sm text-gray-600 break-words leading-relaxed">{convoy.mode}</p>
                 </div>
               </div>
             </div>
