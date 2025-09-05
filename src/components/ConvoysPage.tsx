@@ -127,7 +127,6 @@ const ConvoysPage: React.FC = () => {
               </div>
 
               <div className="flex items-start space-x-3 text-gray-600">
-                <MapPin className="h-5 w-5 text-red-500 flex-shrink-0 mt-0.5" />
                 <div className="min-w-0 flex-1">
                   <p className="font-medium text-gray-900 mb-1 text-sm sm:text-base">Mode d'envoi</p>
                   <p className="text-xs sm:text-sm text-gray-600 break-words leading-relaxed">{convoy.mode}</p>
