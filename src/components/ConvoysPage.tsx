@@ -35,7 +35,8 @@ const ConvoysPage: React.FC = () => {
         carrierAddress: convoy.carrier_address,
         carrierName: convoy.carrier_name,
         destination: convoy.destination,
-        availableSpace: convoy.available_space
+        availableSpace: convoy.available_space,
+        mode: convoy.mode
       }));
 
       setConvoys(formattedConvoys);
